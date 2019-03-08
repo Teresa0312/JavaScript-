@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.navbar{
+    background: #E3E3E5;
+    margin-bottom: 0;
+}
+
+.linkList{
+	list-style: none;
+	width: 100%;
+}
+
+.linkList li{
+	width: 10%;
+	padding: 14px 0;
+	float: left;
+	text-align: center;
+}
+
+.main,.col-md-2,.textArea{
+	padding: 0;
+}
+
+.nav-left li{
+	background: #8BCEF7;
+	border: 1px solid white;
+}
+
+.linkList li a,.nav-left li a,.nav-left li span{
+	color: black;
+	font-size: 16px;
+}
+
+.dropdown{
+	margin-bottom: 0;
+}
+
+.dropdown li{
+	background: #DBE4F1;
+}
+
+.dropdown li:hover{
+	background: #CED8E5;
+}
+
+.textList{
+	margin-top: 1%;
+}
+
+.textList .list-group-item{
+	float: left;
+}
+
+.border1{
+	border: 1px solid #DDDDDD; 
+	margin-top: 1%;
+}
+
+.textContent{
+	min-height: 100px;
+}
+
+.register{
+	padding: 1%;
+}
+
+.register span{
+	line-height: 2.3;
+}
+
+.wrong{
+	color: red;
+}
+
+.right{
+	color: green; 	
+}
+
+.province .form-control{
+	margin: 6% 1%;
+}
+
+.linkActive{
+	background: #A2DBFC;
+}
+
+.li-active{
+	cursor: pointer;
+	background: #8BCEF7;
+}
